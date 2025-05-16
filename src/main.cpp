@@ -13,6 +13,8 @@ int In4 = 10;
 // Extralar
 int Far = 13;
 
+// int Stop = 8;
+
 void setup() {
     pinMode(EnA, OUTPUT); //Enable: A
     pinMode(EnB, OUTPUT); //Enable: B
