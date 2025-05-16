@@ -10,6 +10,9 @@ int In2 = 4;
 int In3 = 12;
 int In4 = 10;
 
+// Extralar
+int Far = 13;
+
 void setup() {
     pinMode(EnA, OUTPUT); //Enable: A
     pinMode(EnB, OUTPUT); //Enable: B
@@ -17,6 +20,8 @@ void setup() {
     pinMode(In2, INPUT); // Mod: Output olabilir.
     pinMode(In3, INPUT); // Mod: Output olabilir.
     pinMode(In4, INPUT); // Mod: Output olabilir.
+    // Extra
+    pinMode(Far, OUTPUT);
 
 }
 // PWM Pinleri ile hız kontrolü
