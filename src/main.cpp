@@ -65,6 +65,26 @@ void Tamsag() {
     digitalWrite(In3, LOW);
     digitalWrite(In4, HIGH);
 }
+
+void Hafifsol() {
+    analogWrite(EnA, 0);    // Sol motoru durdur.
+    digitalWrite(In1, HIGH);
+    digitalWrite(In2, LOW);
+
+    analogWrite(EnB, 255); // Sağ motoru Tam Hız geri çevir
+    digitalWrite(In3, HIGH);
+    digitalWrite(In4, LOW);
+}
+
+void Tamsol() {
+    analogWrite(EnA, 255);    // Sol motoru Tam Hız Geri Çevir.
+    digitalWrite(In1, LOW);
+    digitalWrite(In2, HIGH);
+
+    analogWrite(EnB, 255); // Sağ motoru Tam Hız geri çevir
+    digitalWrite(In3, HIGH);
+    digitalWrite(In4, LOW);
+}
 void loop() {
     ileri();
     delay(1000);
