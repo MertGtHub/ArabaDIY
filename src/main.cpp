@@ -17,6 +17,13 @@ void setup() {
 
 }
 
+void ileri() {
+    analogWrite(EnA, 255);
+    digitalWrite(In1, HIGH);
+
+    analogWrite(EnB, 255);
+    digitalWrite(In3, HIGH);
+}
 void loop() {
     // PWM Pinleri ile hız kontrolü
     analogWrite(EnA, 255);
