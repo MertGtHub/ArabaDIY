@@ -17,11 +17,9 @@ ArabaDIY, Arduino kullanarak L293D motor sürücü modülü ile DC motorları ko
 |-------------|----------------|
 | D3 (PWM)    | EnA (Motor A Hız Kontrolü) |
 | D11 (PWM)   | EnB (Motor B Hız Kontrolü) |
-| D2          | In1 (Motor A Yön Kontrolü) |
-| D*          | In2 (Motor A Yön Kontrolü) |
-| D12         | In3 (Motor B Yön Kontrolü) |
-| D*          | In4 (Motor B Yön Kontrolü) |
-
-\* = Bu pinler kodda tanımlanmamıştır, uygulamanıza göre seçmelisiniz
+| D2          | In1 (Motor A Yön Kontrolü 1) |
+| D4          | In2 (Motor A Yön Kontrolü 2) |
+| D12         | In3 (Motor B Yön Kontrolü 1) |
+| D10         | In4 (Motor B Yön Kontrolü 2) |
 
 ## Bağlantı Şeması

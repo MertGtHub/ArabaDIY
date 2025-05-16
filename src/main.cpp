@@ -50,4 +50,6 @@ void loop() {
     delay(1000);
     geri();
     delay(1000);
+    dur();
+    delay(1000);
 }
