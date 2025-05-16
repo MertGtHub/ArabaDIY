@@ -35,10 +35,8 @@ void geri() {
 
 
 void loop() {
-    // PWM Pinleri ile hız kontrolü
-    analogWrite(EnA, 255);
-    digitalWrite(In1, HIGH);
-
-    analogWrite(EnB, 255);
-    digitalWrite(In3, HIGH);
+    ileri();
+    delay(1000);
+    geri();
+    delay(1000);
 }
