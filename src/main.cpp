@@ -8,8 +8,8 @@ int In1 = 2;
 int In3 = 12;
 // int In4 =
 void setup() {
-    pinMode(EnA, OUTPUT);
-    pinMode(EnB, OUTPUT);
+    pinMode(EnA, OUTPUT); //Enable: A
+    pinMode(EnB, OUTPUT); //Enable: B
     pinMode(In1, INPUT);
     // pinMode(In2, INPUT);
     pinMode(In3, INPUT);
