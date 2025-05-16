@@ -10,10 +10,10 @@ int In3 = 12;
 void setup() {
     pinMode(EnA, OUTPUT); //Enable: A
     pinMode(EnB, OUTPUT); //Enable: B
-    pinMode(In1, INPUT);
-    // pinMode(In2, INPUT);
-    pinMode(In3, INPUT);
-    // pinMode(In4, INPUT); 
+    pinMode(In1, INPUT); // Mod: Output olabilir.
+    pinMode(In2, INPUT); // Mod: Output olabilir.
+    pinMode(In3, INPUT); // Mod: Output olabilir.
+    pinMode(In4, INPUT); // Mod: Output olabilir.
 
 }
 
