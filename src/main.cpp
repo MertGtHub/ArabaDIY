@@ -53,7 +53,7 @@ void Hafifsag() {
 
     analogWrite(EnB, 0); // Sağ motor yarım hız
     digitalWrite(In3, HIGH);
-    digitalWrite(In4, LOW);
+    digitalWrite(In4, LOW);  // Sağ Motoru Durdur.
 }
 
 void Tamsag() {
@@ -61,7 +61,7 @@ void Tamsag() {
     digitalWrite(In1, HIGH);
     digitalWrite(In2, LOW);
 
-    analogWrite(EnB, 255); // Sağ motor tam hız
+    analogWrite(EnB, 255); // Sağ motoru Tam Hız geri çevir
     digitalWrite(In3, LOW);
     digitalWrite(In4, HIGH);
 }
