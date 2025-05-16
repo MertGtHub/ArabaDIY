@@ -41,7 +41,10 @@ void geri() {
     digitalWrite(In4, HIGH);
 }
 
-
+void dur() {
+    analogWrite(EnA, LOW);
+    analogWrite(EnB, LOW);
+}
 void loop() {
     ileri();
     delay(1000);
