@@ -55,6 +55,16 @@ void Hafifsag() {
     digitalWrite(In3, HIGH);
     digitalWrite(In4, LOW);
 }
+
+void Tamsag() {
+    analogWrite(EnA, 255); // Sağ motor tam hız
+    digitalWrite(In1, HIGH);
+    digitalWrite(In2, LOW);
+
+    analogWrite(EnB, 255); // Sağ motor tam hız
+    digitalWrite(In3, LOW);
+    digitalWrite(In4, HIGH);
+}
 void loop() {
     ileri();
     delay(1000);
