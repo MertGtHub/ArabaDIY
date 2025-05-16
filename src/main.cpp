@@ -45,6 +45,16 @@ void dur() {
     analogWrite(EnA, LOW);
     analogWrite(EnB, LOW);
 }
+
+void Hafifsag() {
+    analogWrite(EnA, 255); // Sol motor tam hız
+    digitalWrite(In1, HIGH);
+    digitalWrite(In2, LOW);
+
+    analogWrite(EnB, 128); // Sağ motor yarım hız
+    digitalWrite(In3, HIGH);
+    digitalWrite(In4, LOW);
+}
 void loop() {
     ileri();
     delay(1000);
