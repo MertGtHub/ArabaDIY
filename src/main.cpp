@@ -47,11 +47,11 @@ void dur() {
 }
 
 void Hafifsag() {
-    analogWrite(EnA, 255); // Sol motor tam hız
+    analogWrite(EnA, 255); // Sağ motor tam hız
     digitalWrite(In1, HIGH);
     digitalWrite(In2, LOW);
 
-    analogWrite(EnB, 128); // Sağ motor yarım hız
+    analogWrite(EnB, 0); // Sağ motor yarım hız
     digitalWrite(In3, HIGH);
     digitalWrite(In4, LOW);
 }
