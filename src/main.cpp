@@ -22,8 +22,9 @@ void setup() {
     pinMode(In2, INPUT); // Mod: Output olabilir.
     pinMode(In3, INPUT); // Mod: Output olabilir.
     pinMode(In4, INPUT); // Mod: Output olabilir.
-    // Extra
-    pinMode(Far, OUTPUT);
+    // Extra (Farlar ve Stop ışıkları)
+    // pinMode(Far, OUTPUT);
+    // pinMode(Stop, OUTPUT);
 
 }
 // PWM Pinleri ile hız kontrolü
@@ -92,6 +93,19 @@ void Tamsol() {
     digitalWrite(In3, HIGH);
     digitalWrite(In4, LOW);
 }
+
+void FarYak() {
+
+}
+
+void FarSon() {
+
+}
+
+void StopYak() {} // Arka ışıklar.
+void StopSon() {}
+
+// Park Sensörü eklenebilir.
 void loop() {
     ileri();
     delay(1000);
