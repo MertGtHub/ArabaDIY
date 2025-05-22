@@ -1,35 +1,7 @@
 <div align="right">
-  <span id="language-buttons" style="display: inline-block; margin-bottom: 20px;">
-    <button id="tr-button" onclick="changeLanguage('tr')" style="background-color: #4CAF50; color: white; border: none; padding: 8px 16px; text-align: center; text-decoration: none; display: inline-block; font-size: 14px; margin: 4px 2px; cursor: pointer; border-radius: 4px;">🇹🇷 Türkçe</button>
-    <button id="en-button" onclick="changeLanguage('en')" style="background-color: #008CBA; color: white; border: none; padding: 8px 16px; text-align: center; text-decoration: none; display: inline-block; font-size: 14px; margin: 4px 2px; cursor: pointer; border-radius: 4px; font-weight: bold;">🇬🇧 English</button>
-  </span>
+  <a href="README.md"><img src="https://img.shields.io/badge/Dil-T%C3%BCrk%C3%A7e-red.svg?style=for-the-badge"></a>
+  <a href="README_EN.md"><img src="https://img.shields.io/badge/Language-English-blue.svg?style=for-the-badge"></a>
 </div>
-
-<script>
-function changeLanguage(lang) {
-  if (lang === 'en') {
-    window.location.href = 'README_EN.md';
-    document.getElementById('en-button').style.fontWeight = 'bold';
-    document.getElementById('tr-button').style.fontWeight = 'normal';
-  } else {
-    window.location.href = 'README.md';
-    document.getElementById('tr-button').style.fontWeight = 'bold';
-    document.getElementById('en-button').style.fontWeight = 'normal';
-  }
-}
-
-// Mevcut sayfayı kontrol et ve uygun butonu vurgula
-document.addEventListener('DOMContentLoaded', function() {
-  const currentPage = window.location.pathname;
-  if (currentPage.includes('README_EN.md')) {
-    document.getElementById('en-button').style.fontWeight = 'bold';
-    document.getElementById('tr-button').style.fontWeight = 'normal';
-  } else {
-    document.getElementById('tr-button').style.fontWeight = 'bold';
-    document.getElementById('en-button').style.fontWeight = 'normal';
-  }
-});
-</script>
 
 # CarDIY Project
 
