@@ -181,7 +181,7 @@ Projenin en son güncellemeleri, değişiklikleri ve düzeltmeleri GitHub releas
 - LED uyarı sistemi tamamlandı
 
 ### Önceki Sürümler
-Önceki sürümlerin tüm detayları ve değişiklik geçmişi için [GitHub Releases](https://github.com/kullaniciadi/ArabaDIY/releases) sayfasını ziyaret ediniz.
+Önceki sürümlerin tüm detayları ve değişiklik geçmişi için [GitHub Releases](https://github.com/MertGtHub/ArabaDIY/releases) sayfasını ziyaret ediniz.
 
 ## 📄 Lisans
 
