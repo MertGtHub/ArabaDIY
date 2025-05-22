@@ -15,8 +15,7 @@
 - [❓ Sorun Giderme](#sorun-giderme)
 - [🚀 Geliştirme Önerileri](#geliştirme-önerileri)
 - [📄 Lisans](#lisans)
-- [🤝 Katkıda Bulunma](#katkıda-bulunma)
-- [📞 İletişim](#iletişim)
+
 
 ## Proje Hakkında
 🔍 ArabaDIY, Arduino kullanarak L293D motor sürücü modülü ile DC motorları kontrol eden bir DIY (Kendin Yap) robot araba projesidir. Bu proje, ultrasonik sensör ve LED'ler kullanarak park sensörü sistemi oluşturur ve temel robotik ve elektronik konularında pratik yapmanıza olanak sağlar.
@@ -178,14 +177,10 @@ Katkıda bulunmak istiyorsanız:
 4. Branch'inizi push edin (`git push origin yeni-ozellik`)
 5. Bir Pull Request açın
 
-## İletişim
 
-Sorularınız veya önerileriniz için:
-
-- **E-posta**: ornek@email.com
-- **GitHub**: [github.com/kullaniciadi](https://github.com/kullaniciadi)
-- **Twitter**: [@kullaniciadi](https://twitter.com/kullaniciadi)
-
----
+## Bitiş
+Bizi takip ettiğiniz için teşekkür ederiz.
+Ve sevgili hocam: Çağdaş Özdemir ile yaptığımız bu projeyi bitirdik.
+Görüşmek üzere 👋🚀
 
 **NOT**: Bu proje eğitim amaçlıdır ve gerçek araç sistemleri için güvenlik standartlarını karşılamaz. Yalnızca hobi ve öğrenme amaçlı kullanılmalıdır.
