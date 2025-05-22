@@ -19,6 +19,7 @@
 - [🧪 Testing](#testing)
 - [❓ Troubleshooting](#troubleshooting)
 - [🚀 Development Suggestions](#development-suggestions)
+- [🔄 Updates](#updates)
 - [📄 License](#license)
 - [✨ Conclusion](#conclusion)
 - [📝 Note](#note)
@@ -168,6 +169,19 @@ Some suggestions to further enhance your project:
 ### 💾 Data Processing
 - Save distance data with SD card module
 - Computer interface for analyzing sensor data
+
+## 🔄 Updates
+
+The latest updates, changes, and fixes for the project can be found on the GitHub releases page. Detailed descriptions and new features are listed for each version.
+
+### Latest Version (v1.0.0)
+- First official release
+- Added basic motor control functions
+- Added ultrasonic sensor support
+- Completed LED warning system
+
+### Previous Versions
+For complete details of previous versions and change history, please visit the [GitHub Releases](https://github.com/username/CarDIY/releases) page.
 
 ## 📄 License
 

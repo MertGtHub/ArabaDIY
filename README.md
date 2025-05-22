@@ -19,6 +19,7 @@
 - [🧪 Test Etme](#test-etme)
 - [❓ Sorun Giderme](#sorun-giderme)
 - [🚀 Geliştirme Önerileri](#geliştirme-önerileri)
+- [🔄 Güncellemeler](#güncellemeler)
 - [📄 Lisans](#lisans)
 - [✨ Bitiş](#bitiş)
 - [📝 Not](#not)
@@ -168,6 +169,19 @@ Projenizi daha da geliştirmek için yapabileceğiniz bazı öneriler:
 ### 💾 Veri İşleme
 - SD kart modülü ile mesafe verilerini kaydetme
 - Sensör verilerini analiz etmek için bilgisayar arayüzü
+
+## 🔄 Güncellemeler
+
+Projenin en son güncellemeleri, değişiklikleri ve düzeltmeleri GitHub releases sayfasında bulabilirsiniz. Her sürüm için detaylı açıklamalar ve yeni özellikler listelenmiştir.
+
+### Son Sürüm (v1.0.0)
+- İlk resmi sürüm
+- Temel motor kontrol fonksiyonları eklendi
+- Ultrasonik sensör desteği eklendi
+- LED uyarı sistemi tamamlandı
+
+### Önceki Sürümler
+Önceki sürümlerin tüm detayları ve değişiklik geçmişi için [GitHub Releases](https://github.com/kullaniciadi/ArabaDIY/releases) sayfasını ziyaret ediniz.
 
 ## 📄 Lisans
 
