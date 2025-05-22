@@ -10,19 +10,19 @@
 [![DIY](https://img.shields.io/badge/DIY-Robotics-red?style=for-the-badge)](https://www.instructables.com/)
 
 ## 📋 Contents
-- [🔍 About the Project](#about-the-project)
-- [🛠️ Hardware Requirements](#hardware-requirements)
-- [🔌 Pin Connections](#pin-connections)
-- [🚗 Control Functions](#control-functions)
-- [📊 Parking Sensor System](#parking-sensor-system)
-- [💡 LED Warning System](#led-warning-system)
-- [🧪 Testing](#testing)
-- [❓ Troubleshooting](#troubleshooting)
-- [🚀 Development Suggestions](#development-suggestions)
-- [🔄 Updates](#updates)
-- [📄 License](#license)
-- [✨ Conclusion](#conclusion)
-- [📝 Note](#note)
+- [🔍 About the Project](#-about-the-project)
+- [🛠️ Hardware Requirements](#️-hardware-requirements)
+- [🔌 Pin Connections](#-pin-connections)
+- [🚗 Control Functions](#-control-functions)
+- [📊 Parking Sensor System](#-parking-sensor-system)
+- [💡 LED Warning System](#-led-warning-system)
+- [🧪 Testing](#-testing)
+- [❓ Troubleshooting](#-troubleshooting)
+- [🚀 Development Suggestions](#-development-suggestions)
+- [🔄 Updates](#-updates)
+- [📄 License](#-license)
+- [✨ Conclusion](#-conclusion)
+- [📝 Note](#-note)
 
 ## 🔍 About the Project
 CarDIY is a DIY (Do It Yourself) robot car project that controls DC motors using an L293D motor driver module with Arduino. This project creates a parking sensor system using ultrasonic sensors and LEDs, allowing you to practice basic robotics and electronics concepts.

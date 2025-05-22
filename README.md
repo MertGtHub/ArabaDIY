@@ -10,19 +10,19 @@
 [![DIY](https://img.shields.io/badge/DIY-Robotics-red?style=for-the-badge)](https://www.instructables.com/)
 
 ## 📋 İçindekiler
-- [🔍 Proje Hakkında](#proje-hakkında)
-- [🛠️ Donanım Gereksinimleri](#donanım-gereksinimleri)
-- [🔌 Pin Bağlantıları](#pin-bağlantıları)
-- [🚗 Kontrol Fonksiyonları](#kontrol-fonksiyonları)
-- [📊 Park Sensörü Sistemi](#park-sensörü-sistemi)
-- [💡 LED Uyarı Sistemi](#led-uyarı-sistemi)
-- [🧪 Test Etme](#test-etme)
-- [❓ Sorun Giderme](#sorun-giderme)
-- [🚀 Geliştirme Önerileri](#geliştirme-önerileri)
-- [🔄 Güncellemeler](#güncellemeler)
-- [📄 Lisans](#lisans)
-- [✨ Bitiş](#bitiş)
-- [📝 Not](#not)
+- [🔍 Proje Hakkında](#-proje-hakkında)
+- [🛠️ Donanım Gereksinimleri](#️-donanım-gereksinimleri)
+- [🔌 Pin Bağlantıları](#-pin-bağlantıları)
+- [🚗 Kontrol Fonksiyonları](#-kontrol-fonksiyonları)
+- [📊 Park Sensörü Sistemi](#-park-sensörü-sistemi)
+- [💡 LED Uyarı Sistemi](#-led-uyarı-sistemi)
+- [🧪 Test Etme](#-test-etme)
+- [❓ Sorun Giderme](#-sorun-giderme)
+- [🚀 Geliştirme Önerileri](#-geliştirme-önerileri)
+- [🔄 Güncellemeler](#-güncellemeler)
+- [📄 Lisans](#-lisans)
+- [✨ Bitiş](#-bitiş)
+- [📝 Not](#-not)
 
 ## 🔍 Proje Hakkında
 ArabaDIY, Arduino kullanarak L293D motor sürücü modülü ile DC motorları kontrol eden bir DIY (Kendin Yap) robot araba projesidir. Bu proje, ultrasonik sensör ve LED'ler kullanarak park sensörü sistemi oluşturur ve temel robotik ve elektronik konularında pratik yapmanıza olanak sağlar.
