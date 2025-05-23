@@ -19,8 +19,8 @@ int Far = 13;
 
 // 🛠️ Arduino pin ayarlarını yapılandırma
 void setup() {
-    pinMode(EnA, OUTPUT); //Enable: A
-    pinMode(EnB, OUTPUT); //Enable: B
+    pinMode(EnA, OUTPUT); //Enable: A Kiliti
+    pinMode(EnB, OUTPUT); //Enable: B Kiliti
     // Input:
     pinMode(In1, OUTPUT); 
     pinMode(In2, OUTPUT);
