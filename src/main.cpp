@@ -123,10 +123,14 @@ void FarSon() {
 }
 
 // 🚨 Arka stop ışıklarını yakar
-void StopYak() {} // Arka ışıklar.
+void StopYak() {
+
+} // Arka ışıklar.
 
 // 🔅 Arka stop ışıklarını söndürür
-void StopSon() {}
+void StopSon() {
+
+}
 
 // 🔄 Ana döngü - temel test işlemleri
 // Park Sensörü eklenebilir.
