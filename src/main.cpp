@@ -22,7 +22,7 @@ void setup() {
     pinMode(EnA, OUTPUT); //Enable: A Kiliti
     pinMode(EnB, OUTPUT); //Enable: B Kiliti
     // Input:
-    pinMode(In1, OUTPUT); 
+    pinMode(In1, OUTPUT);
     pinMode(In2, OUTPUT);
     pinMode(In3, OUTPUT);
     pinMode(In4, OUTPUT);
