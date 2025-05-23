@@ -181,11 +181,6 @@ The latest updates, changes, and fixes for the project can be found on the GitHu
 - 🔄 Enhanced in-code documentation
 - 📅 Added date information: May 23, 2025
 
-### Previous Version (v1.0.0)
-- First official release
-- Added basic motor control functions
-- Added ultrasonic sensor support
-- Completed LED warning system
 
 ### Previous Versions
 For complete details of previous versions and change history, please visit the [GitHub Releases](https://github.com/MertGtHub/ArabaDIY/releases) page.

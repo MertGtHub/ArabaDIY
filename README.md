@@ -182,11 +182,6 @@ Projenin en son güncellemeleri, değişiklikleri ve düzeltmeleri GitHub releas
 - 🔄 Kod içi dokümantasyon iyileştirildi
 - 📅 Tarih bilgisi eklendi: 23 Mayıs 2025
 
-### Önceki Sürüm (v1.0.0)
-- İlk resmi sürüm
-- Temel motor kontrol fonksiyonları eklendi
-- Ultrasonik sensör desteği eklendi
-- LED uyarı sistemi tamamlandı
 
 ### Önceki Sürümler
 Önceki sürümlerin tüm detayları ve değişiklik geçmişi için [GitHub Releases](https://github.com/MertGtHub/ArabaDIY/releases) sayfasını ziyaret ediniz.
