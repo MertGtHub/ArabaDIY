@@ -133,6 +133,7 @@ void StopSon() {
 }
 
 // 🔄 Ana döngü - temel test işlemleri
+
 // Park Sensörü eklenebilir.
 void loop() {
     ileri();     // ⬆️ İleri git
