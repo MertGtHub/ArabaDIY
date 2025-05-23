@@ -1,5 +1,7 @@
 #include <Arduino.h>
 
+// Bu kod: Çağdaş Özdemir yardımıyla yapılmıştır.
+
 // Enable Pinleri
 int EnA = 3;
 int EnB = 11;
