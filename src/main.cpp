@@ -57,7 +57,7 @@ void geri() {
     digitalWrite(In4, HIGH);
 }
 
-// 🛑 Arabayı durdurur
+// 🛑 Arabayı durdurur.
 // İki motor da durdurulur
 void dur() {
     analogWrite(EnA, LOW);
