@@ -11,6 +11,7 @@
 
 
 ## 📋 İçindekiler
+- Merhaba
 - [🔍 Proje Hakkında](#-proje-hakkında)
 - [🛠️ Donanım Gereksinimleri](#️-donanım-gereksinimleri)
 - [🔌 Pin Bağlantıları](#-pin-bağlantıları)
