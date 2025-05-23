@@ -174,7 +174,14 @@ Some suggestions to further enhance your project:
 
 The latest updates, changes, and fixes for the project can be found on the GitHub releases page. Detailed descriptions and new features are listed for each version.
 
-### Latest Version (v1.0.0)
+### Latest Version (v1.1.0) - May 23, 2025
+- ✨ Added emoji descriptions to all functions
+- 📝 Improved code readability and understandability
+- 🔍 Added more detailed descriptions of function purposes
+- 🔄 Enhanced in-code documentation
+- 📅 Added date information: May 23, 2025
+
+### Previous Version (v1.0.0)
 - First official release
 - Added basic motor control functions
 - Added ultrasonic sensor support

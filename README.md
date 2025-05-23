@@ -175,7 +175,14 @@ Projenizi daha da geliştirmek için yapabileceğiniz bazı öneriler:
 
 Projenin en son güncellemeleri, değişiklikleri ve düzeltmeleri GitHub releases sayfasında bulabilirsiniz. Her sürüm için detaylı açıklamalar ve yeni özellikler listelenmiştir.
 
-### Son Sürüm (v1.0.0)
+### Son Sürüm (v1.1.0) - 23 Mayıs 2025
+- ✨ Tüm fonksiyonlara emoji ile açıklamalar eklendi
+- 📝 Kod okunabilirliği ve anlaşılırlığı artırıldı
+- 🔍 Fonksiyonların işlevleri daha detaylı açıklandı
+- 🔄 Kod içi dokümantasyon iyileştirildi
+- 📅 Tarih bilgisi eklendi: 23 Mayıs 2025
+
+### Önceki Sürüm (v1.0.0)
 - İlk resmi sürüm
 - Temel motor kontrol fonksiyonları eklendi
 - Ultrasonik sensör desteği eklendi
