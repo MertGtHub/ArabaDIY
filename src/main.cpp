@@ -21,10 +21,11 @@ int Far = 13;
 void setup() {
     pinMode(EnA, OUTPUT); //Enable: A
     pinMode(EnB, OUTPUT); //Enable: B
-    pinMode(In1, INPUT); // Mod: Output olabilir.
-    pinMode(In2, INPUT); // Mod: Output olabilir.
-    pinMode(In3, INPUT); // Mod: Output olabilir.
-    pinMode(In4, INPUT); // Mod: Output olabilir.
+    // Input:
+    pinMode(In1, OUTPUT); 
+    pinMode(In2, OUTPUT);
+    pinMode(In3, OUTPUT);
+    pinMode(In4, OUTPUT);
     // Extra (Farlar ve Stop ışıkları)
     // pinMode(Far, OUTPUT);
     // pinMode(Stop, OUTPUT);
