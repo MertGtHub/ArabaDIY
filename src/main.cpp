@@ -1,22 +1,23 @@
 #include <Arduino.h>
 
-// Bu kod: Çağdaş Özdemir yardımıyla yapılmıştır.
+// 🚗 Bu kod: Çağdaş Özdemir yardımıyla yapılmıştır.
 
-// Enable Pinleri
+// 🔌 Enable Pinleri
 int EnA = 3;
 int EnB = 11;
 
-// İnput pinleri
+// 🔌 İnput pinleri
 int In1 = 2;
 int In2 = 4;
 int In3 = 12;
 int In4 = 10;
 
-// Extralar
+// 💡 Extralar
 int Far = 13;
 
 // int Stop = 8;
 
+// 🛠️ Arduino pin ayarlarını yapılandırma
 void setup() {
     pinMode(EnA, OUTPUT); //Enable: A
     pinMode(EnB, OUTPUT); //Enable: B
@@ -29,8 +30,10 @@ void setup() {
     // pinMode(Stop, OUTPUT);
 
 }
-// PWM Pinleri ile hız kontrolü
+// 🚗 PWM Pinleri ile hız kontrolü
 
+// ⬆️ Arabayı ileri hareket ettirir
+// İki motor da ileri yönde çalışır
 void ileri() {
     analogWrite(EnA, 255);
     digitalWrite(In1, HIGH);
@@ -41,6 +44,8 @@ void ileri() {
     digitalWrite(In4, LOW);
 }
 
+// ⬇️ Arabayı geri hareket ettirir
+// İki motor da geri yönde çalışır
 void geri() {
     analogWrite(EnA, 255);
     digitalWrite(In1, LOW);
@@ -51,11 +56,15 @@ void geri() {
     digitalWrite(In4, HIGH);
 }
 
+// 🛑 Arabayı durdurur
+// İki motor da durdurulur
 void dur() {
     analogWrite(EnA, LOW);
     analogWrite(EnB, LOW);
 }
 
+// ↗️ Hafif sağa dönüş yapar
+// Sağ motor tam hız çalışır, sol motor durdurulur
 void Hafifsag() {
     analogWrite(EnA, 255); // Sağ motor tam hız
     digitalWrite(In1, HIGH);
@@ -66,6 +75,8 @@ void Hafifsag() {
     digitalWrite(In4, LOW);  // Sağ Motoru Durdur.
 }
 
+// ➡️ Tam sağa dönüş yapar
+// Sol motor ileri, sağ motor geri yönde çalışır
 void Tamsag() {
     analogWrite(EnA, 255); // Sağ motor tam hız
     digitalWrite(In1, HIGH);
@@ -76,6 +87,8 @@ void Tamsag() {
     digitalWrite(In4, HIGH);
 }
 
+// ↖️ Hafif sola dönüş yapar
+// Sol motor durdurulur, sağ motor tam hız çalışır
 void Hafifsol() {
     analogWrite(EnA, 0);    // Sol motoru durdur.
     digitalWrite(In1, HIGH);
@@ -86,6 +99,8 @@ void Hafifsol() {
     digitalWrite(In4, LOW);
 }
 
+// ⬅️ Tam sola dönüş yapar
+// Sağ motor ileri, sol motor geri yönde çalışır
 void Tamsol() {
     analogWrite(EnA, 255);    // Sol motoru Tam Hız Geri Çevir.
     digitalWrite(In1, LOW);
@@ -96,23 +111,29 @@ void Tamsol() {
     digitalWrite(In4, LOW);
 }
 
+// 💡 Ön farları yakar
 void FarYak() {
 
 }
 
+// 🔅 Ön farları söndürür
 void FarSon() {
 
 }
 
+// 🚨 Arka stop ışıklarını yakar
 void StopYak() {} // Arka ışıklar.
+
+// 🔅 Arka stop ışıklarını söndürür
 void StopSon() {}
 
+// 🔄 Ana döngü - temel test işlemleri
 // Park Sensörü eklenebilir.
 void loop() {
-    ileri();
-    delay(1000);
-    geri();
-    delay(1000);
-    dur();
-    delay(1000);
+    ileri();     // ⬆️ İleri git
+    delay(1000); // ⏱️ 1 saniye bekle
+    geri();      // ⬇️ Geri git
+    delay(1000); // ⏱️ 1 saniye bekle
+    dur();       // 🛑 Dur
+    delay(1000); // ⏱️ 1 saniye bekle
 }
