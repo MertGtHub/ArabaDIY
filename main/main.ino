@@ -146,8 +146,10 @@ void loop() {
     delay(500);
     Tamsag();
     delay(500);
+    dur();
+    delay(1000); // 1 Saniye bekle
     Tamsol();
     delay(500);
     dur();
-    delay(500); // yarım Saniye bekle
+    delay(1000); // 1 Saniye bekle
 }
