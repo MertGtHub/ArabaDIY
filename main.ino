@@ -3,14 +3,14 @@
 // 🚗 Bu kod: Çağdaş Özdemir yardımıyla yapılmıştır.
 // Updated Date: 5/23/2025 - 23 Mayıs 2025 Cuma
 // 🔌 Enable Pinleri
-int EnA = 3;
-int EnB = 11;
+int EnA = 5;
+int EnB = 10;
 
 // 🔌 İnput pinleri
-int In1 = 2;
-int In2 = 4;
-int In3 = 12;
-int In4 = 10;
+int In1 = 6;
+int In2 = 7;
+int In3 = 8;
+int In4 = 9;
 
 // 💡 Extralar
 int Far = 13;
