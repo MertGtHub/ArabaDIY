@@ -156,5 +156,5 @@ void loop() {
     delay(500);
     dur();
 
-    delay(1000); // 1 Saniye bekle
+    delay(500); // 1 Saniye bekle
 }
