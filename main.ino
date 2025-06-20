@@ -15,7 +15,7 @@ int In4 = 9;
 // 💡 Extralar
 int Far = 13;
 
-// int Stop = 8;
+int Stop = 12;
 
 // 🛠️ Arduino pin ayarlarını yapılandırma
 void setup() {
