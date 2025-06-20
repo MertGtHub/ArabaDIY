@@ -137,9 +137,15 @@ void StopSon() {
 // Park Sensörü eklenebilir.
 void loop() {
     ileri();     // ⬆️ İleri git
-    delay(1000); // ⏱️ 1 saniye bekle
-    geri();      // ⬇️ Geri git
-    delay(1000); // ⏱️ 1 saniye bekle
-    dur();       // 🛑 Dur
-    delay(1000); // ⏱️ 1 saniye bekle
+    delay(2000); // ⏱️ 2 saniye bekle
+    dur();
+    delay(500);
+    geri();
+    delay(2000); // 2 Saniye bekle
+    Tamsag();
+    delay(500);
+    Tamsol();
+    delay(500);
+    dur();
+    delay(3000); // 3 Saniye bekle
 }
