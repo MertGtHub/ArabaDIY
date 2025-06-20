@@ -147,5 +147,5 @@ void loop() {
     Tamsol();
     delay(500);
     dur();
-    delay(3000); // 3 Saniye bekle
+    delay(500); // yarım Saniye bekle
 }
