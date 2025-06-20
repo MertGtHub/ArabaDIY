@@ -114,12 +114,12 @@ void Tamsol() {
 
 // 💡 Ön farları yakar
 void FarYak() {
-
+    digitalWrite(Far, HIGH);
 }
 
 // 🔅 Ön farları söndürür
 void FarSon() {
-
+    digitalWrite(Far, LOW);
 }
 
 // 🚨 Arka stop ışıklarını yakar
